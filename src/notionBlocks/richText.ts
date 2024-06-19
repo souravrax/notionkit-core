@@ -49,5 +49,8 @@ export default function richText<T>(
         inlineComponents.underline(baseComponent),
         baseComponent
     );
-    return baseComponent;
+
+    return richText.href !== null
+        ? inlineComponents.link(baseComponent, richText.href)
+        : baseComponent;
 }
