@@ -21,9 +21,9 @@
     "author": "Sourav Rakshit",
     "license": "MIT",
     "dependencies": {
-        "typescript": "^5.4.5"
     },
     "devDependencies": {
+        "typescript": "^5.4.5",
         "tsup": "^8.1.0"
     }
 }
