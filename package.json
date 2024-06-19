@@ -1,0 +1,29 @@
+{
+    "name": "@notionkit/core",
+    "version": "0.0.1",
+    "description": "Core library for transforming notion block element into renderable DOM element",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup"
+    },
+    "keywords": [
+        "notion",
+        "api",
+        "block",
+        "renderer",
+        "transformer",
+        "blog",
+        "cms",
+        "notion-renderer"
+    ],
+    "author": "Sourav Rakshit",
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+        "tsup": "^8.1.0"
+    }
+}
